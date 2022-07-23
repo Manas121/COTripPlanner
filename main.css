@@ -1,0 +1,75 @@
+* {box-sizing:border-box}
+
+
+
+.mySlides {
+
+position: absolute;
+right: 40%;
+top: 10%;
+text-align: center;
+
+}
+
+.submitbutton {
+
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(208, 21, 21);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: 50%;
+  display: none;
+  
+
+}
+
+.prev {
+
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(208, 21, 21);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.postsubmit {
+
+text-align: center;
+top: 15%;
+position: relative;
+display: none;
+
+}
